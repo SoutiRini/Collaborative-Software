@@ -1,6 +1,8 @@
 from pyquery import PyQuery as pq
 import urllib.request
 import os
+from random import randint
+from time import sleep
 
 root = 'http://mail-archives.apache.org/mod_mbox'
 
@@ -29,6 +31,7 @@ with open('../apache-projects.txt', 'r', encoding='utf-16') as f:
             response = urllib.request.urlopen(monthUrl)
             with open(os.path.join(projectPath, month), 'wb') as f:
                 f.write(response.read())
+            sleep(randint(1,30))
 
 
 #http://mail-archives.apache.org/mod_mbox/cordova-dev/201801.mbox/raw/%3c166866877.869.1514775098330.JavaMail.jenkins@jenkins-master.apache.org%3e
