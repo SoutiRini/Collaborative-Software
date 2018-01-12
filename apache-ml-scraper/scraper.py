@@ -2,9 +2,9 @@ from pyquery import PyQuery as pq
 import urllib.request
 
 root = 'http://mail-archives.apache.org/mod_mbox'
-project = 'cordova-dev'
+project = 'cordova'
 
-d = pq(root + '/' + project)
+d = pq(root + '/' + project + '-dev')
 
 months = [x.attr('href').split('/')[0] for x in d('.year td a').items() if x.text() == 'Date']
 
