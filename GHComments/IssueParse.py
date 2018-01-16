@@ -9,7 +9,7 @@ projList = list(projects.projects)
 
 print("Here starts everything")
 
-gh = GitHub("SoutiRini", "a9a847330c8c68132170e71ba79e2147b48fba01")
+gh = GitHub("SoutiRini", "xxxx")
 
 print("connected to github")
 
