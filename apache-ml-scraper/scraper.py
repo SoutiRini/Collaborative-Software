@@ -22,7 +22,11 @@ with open('../all-apache-projects.txt', 'r', encoding='utf-8') as f:
 
         projUrl = root + '/' + project + '-dev'
         print("GET: " + projUrl)
-        d = pq(projUrl)
+        try:
+            d = pq(projUrl)
+        except:
+            print("error")
+            continue
 
         months = [x.attr('href').split('/')[0] for x in d('.year td a').items() if x.text() == 'Date']
 
@@ -32,7 +36,7 @@ with open('../all-apache-projects.txt', 'r', encoding='utf-8') as f:
             response = urllib.request.urlopen(monthUrl)
             with open(os.path.join(projectPath, month), 'wb') as f:
                 f.write(response.read())
-            sleep(randint(1,30))
+            #sleep(randint(1,10))
 
 
 #http://mail-archives.apache.org/mod_mbox/cordova-dev/201801.mbox/raw/%3c166866877.869.1514775098330.JavaMail.jenkins@jenkins-master.apache.org%3e
