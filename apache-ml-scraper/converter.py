@@ -2,9 +2,9 @@ import os
 import mailbox
 import csv
 
-projects = "/Volumes/GoogleDrive/Team Drives/Reflection Distributed Development/data/dev-ml/"
+projects = "../dev-ml/"
 
-with open('dev-ml.csv', 'w') as f:
+with open('../dev-ml.csv', 'w') as f:
     writer = csv.writer(f)
     for project in os.listdir(projects):
         for mbox in os.listdir(os.path.join(projects, project)):
