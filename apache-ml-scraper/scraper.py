@@ -6,13 +6,14 @@ from time import sleep
 
 root = 'http://mail-archives.apache.org/mod_mbox'
 
-dataPath = "/Volumes/GoogleDrive/Team Drives/Reflection Distributed Development/data/"
-dataPath = os.path.join(dataPath, 'dev-ml')
+#dataPath = "/Volumes/GoogleDrive/Team Drives/Reflection Distributed Development/data/"
+dataPath = "../"
+dataPath = os.path.join(dataPath, 'dev-ml-2')
 
 if not os.path.exists(dataPath):
     os.mkdir(dataPath)
 
-with open('../apache-projects.txt', 'r', encoding='utf-16') as f:
+with open('../all-apache-projects.txt', 'r', encoding='utf-8') as f:
     for project in f:
         project = project.strip();
         projectPath = os.path.join(dataPath, project)
