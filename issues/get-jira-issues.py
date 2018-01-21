@@ -19,12 +19,17 @@ args = {
 def getProjectIssues(project_id, startAt = 0):
     args['project'] = project_id
     args['startAt'] = startAt
-    urlbits[4] = urlencode(args)
-    print(urlunparse(urlbits))
-    resp = req.get(urlunparse(urlbits))
-    j = resp.json()
-    if j['total'] > j['maxResults'] + j['startAt']:
-        return j['issues'].append(getProjectIssues(project, j['maxResults'] + j['startAt'] + 1))
+    issues = []
+    while True:
+        urlbits[4] = urlencode(args)
+        print(urlunparse(urlbits))
+        resp = req.get(urlunparse(urlbits))
+        j = resp.json()
+        issues.append(j['issues'])
+        args['startAt'] = j['maxResults'] + j['startAt'] + 1
+        if j['total'] <= j['maxResults'] + j['startAt']:
+            break
+    return issues
 
 with open('jira-projects.csv', 'r') as f:
     reader = csv.reader(f)
