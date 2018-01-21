@@ -6,13 +6,14 @@ from time import sleep
 
 root = 'http://mail-archives.apache.org/mod_mbox'
 
-dataPath = "/Volumes/GoogleDrive/Team Drives/Reflection Distributed Development/data/"
-dataPath = os.path.join(dataPath, 'dev-ml')
+#dataPath = "/Volumes/GoogleDrive/Team Drives/Reflection Distributed Development/data/"
+dataPath = "../"
+dataPath = os.path.join(dataPath, 'dev-ml-2')
 
 if not os.path.exists(dataPath):
     os.mkdir(dataPath)
 
-with open('../apache-projects.txt', 'r', encoding='utf-16') as f:
+with open('../all-apache-projects.txt', 'r', encoding='utf-8') as f:
     for project in f:
         project = project.strip();
         projectPath = os.path.join(dataPath, project)
@@ -21,7 +22,11 @@ with open('../apache-projects.txt', 'r', encoding='utf-16') as f:
 
         projUrl = root + '/' + project + '-dev'
         print("GET: " + projUrl)
-        d = pq(projUrl)
+        try:
+            d = pq(projUrl)
+        except:
+            print("error")
+            continue
 
         months = [x.attr('href').split('/')[0] for x in d('.year td a').items() if x.text() == 'Date']
 
@@ -31,7 +36,7 @@ with open('../apache-projects.txt', 'r', encoding='utf-16') as f:
             response = urllib.request.urlopen(monthUrl)
             with open(os.path.join(projectPath, month), 'wb') as f:
                 f.write(response.read())
-            sleep(randint(1,30))
+            #sleep(randint(1,10))
 
 
 #http://mail-archives.apache.org/mod_mbox/cordova-dev/201801.mbox/raw/%3c166866877.869.1514775098330.JavaMail.jenkins@jenkins-master.apache.org%3e
