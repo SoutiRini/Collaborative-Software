@@ -24,7 +24,7 @@ while True:
     if not newBugs:
         break
     bugs.append([x['id'] for x in newBugs])
-    args['offset'] = args['offset'] + args['limit'] + 1
+    args['offset'] = args['offset'] + args['limit']
     sleep(randint(1,20))
 
 with open('bugzilla_bugs.json', 'w') as f:
