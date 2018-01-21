@@ -32,4 +32,4 @@ with open('jira-projects.csv', 'r') as f:
         project = row[0]
         project_id = parseUrl(row[1])
         issues = getProjectIssues(project_id)
-        json.dump({project: issues}, "jira_issues/" +  project + ".json")
+        json.dump(issues, "jira_issues/" +  project + ".json")
