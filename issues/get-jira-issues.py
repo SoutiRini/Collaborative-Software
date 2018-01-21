@@ -17,6 +17,7 @@ urlbits = ['https', 'issues.apache.org', '/jira/rest/api/2/search', '', '', '']
 args = {
     'maxResuts': 1000
 }
+headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7'}
 
 def getProjectIssues(project_id, startAt = 0):
     args['project'] = project_id
@@ -25,7 +26,7 @@ def getProjectIssues(project_id, startAt = 0):
     while True:
         urlbits[4] = urlencode(args)
         print(urlunparse(urlbits))
-        resp = req.get(urlunparse(urlbits))
+        resp = req.get(urlunparse(urlbits), headers = headers)
         j = resp.json()
         issues.append(j['issues'])
         args['startAt'] = j['maxResults'] + j['startAt'] + 1
