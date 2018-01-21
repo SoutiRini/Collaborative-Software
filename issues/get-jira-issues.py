@@ -1,6 +1,8 @@
 import csv
 from urllib.parse import urlparse, urlencode, urlunparse
 import requests as req
+from random import randint
+from time import sleep
 
 def parseUrl(url):
     o = urlparse(url)
@@ -29,6 +31,7 @@ def getProjectIssues(project_id, startAt = 0):
         args['startAt'] = j['maxResults'] + j['startAt'] + 1
         if j['total'] <= j['maxResults'] + j['startAt']:
             break
+        sleep(randint(1,10))
     return issues
 
 with open('jira-projects.csv', 'r') as f:
