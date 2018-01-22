@@ -1,6 +1,6 @@
 import csv
 from urllib.parse import urlparse, urlencode, urlunparse
-import requests as req
+from torrequest import TorRequest
 from random import randint
 from time import sleep
 
@@ -23,16 +23,18 @@ def getProjectIssues(project_id, startAt = 0):
     args['project'] = project_id
     args['startAt'] = startAt
     issues = []
-    while True:
-        urlbits[4] = urlencode(args)
-        print(urlunparse(urlbits))
-        resp = req.get(urlunparse(urlbits), headers = headers)
-        j = resp.json()
-        issues.append(j['issues'])
-        args['startAt'] = j['maxResults'] + j['startAt']
-        if j['total'] <= j['maxResults'] + j['startAt']:
-            break
-        sleep(randint(1,10))
+    with TorRequest() as tr:
+        while True:
+            urlbits[4] = urlencode(args)
+            print(urlunparse(urlbits))
+            resp = tr.get(urlunparse(urlbits), headers = headers)
+            j = resp.json()
+            issues.append(j['issues'])
+            args['startAt'] = j['maxResults'] + j['startAt']
+            if j['total'] <= j['maxResults'] + j['startAt']:
+                break
+            #sleep(randint(1,10))
+            tr.reset_identity()
     return issues
 
 with open('jira-projects.csv', 'r') as f:
