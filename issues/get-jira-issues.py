@@ -29,7 +29,7 @@ def getProjectIssues(project_id, startAt = 0):
         resp = req.get(urlunparse(urlbits), headers = headers)
         j = resp.json()
         issues.append(j['issues'])
-        args['startAt'] = j['maxResults'] + j['startAt'] + 1
+        args['startAt'] = j['maxResults'] + j['startAt']
         if j['total'] <= j['maxResults'] + j['startAt']:
             break
         sleep(randint(1,10))

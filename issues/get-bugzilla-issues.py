@@ -2,6 +2,8 @@ import requests as req
 import csv
 from urllib.parse import urlunparse, urlencode
 import json
+from random import randint
+from time import sleep
 
 #https://issues.apache.org/bugzilla/rest.cgi/bug?limit=500&product=Ant
 
@@ -22,7 +24,8 @@ while True:
     if not newBugs:
         break
     bugs.append([x['id'] for x in newBugs])
-    args['offset'] = args['offset'] + args['limit'] + 1
+    args['offset'] = args['offset'] + args['limit']
+    sleep(randint(1,20))
 
-with open('bugzilla_bugs', 'w') as f:
+with open('bugzilla_bugs.json', 'w') as f:
     json.dump(bugs, f)
