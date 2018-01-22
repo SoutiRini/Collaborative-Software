@@ -27,7 +27,14 @@ def getProjectIssues(project_id, startAt = 0):
         while True:
             urlbits[4] = urlencode(args)
             print(urlunparse(urlbits))
-            resp = tr.get(urlunparse(urlbits), headers = headers)
+            try:
+                resp = tr.get(urlunparse(urlbits), headers = headers)
+            except:
+                print('Something went wrong. Trying again.')
+                tr.reset_identity()
+                sleep(randint(1, 10)):
+                    pass))
+                continue
             j = resp.json()
             issues.append(j['issues'])
             args['startAt'] = j['maxResults'] + j['startAt']
