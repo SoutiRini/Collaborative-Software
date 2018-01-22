@@ -10,10 +10,10 @@ with open('bugzilla_bugs.json', 'r') as f:
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7'}
 comments = {}
 
-proxyPort = randint(9000, 45000)
+proxyPort = randint(10000, 45000)
 controlPort = proxyPort + randint(1,10000)
 
-with TorRequest(proxyPort=proxyPort, controlPort=controlPort, password=None) as tr:
+with TorRequest(proxy_port=proxyPort, ctrl_port=controlPort, password=None) as tr:
     for bug in bugs[0]:
         urlbits = ['https', 'issues.apache.org', '/bugzilla/rest.cgi/bug/' + str(bug) + '/comment', '', '', '']
         url = urlunparse(urlbits)
