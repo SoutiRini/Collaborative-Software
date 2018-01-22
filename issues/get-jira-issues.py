@@ -32,8 +32,7 @@ def getProjectIssues(project_id, startAt = 0):
             except:
                 print('Something went wrong. Trying again.')
                 tr.reset_identity()
-                sleep(randint(1, 10)):
-                    pass))
+                sleep(randint(1, 10))
                 continue
             j = resp.json()
             issues.append(j['issues'])
