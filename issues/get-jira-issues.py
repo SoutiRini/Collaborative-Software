@@ -15,7 +15,7 @@ def parseUrl(url):
 urlbits = ['https', 'issues.apache.org', '/jira/rest/api/2/search', '', '', '']
 #urlRoot = 'https://issues.apache.org/jira/rest/api/2/search?jql=project=%2210471%22&maxResults:%222000%22'
 args = {
-    'maxResults': 1000
+    'maxResults': 500
 }
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7'}
 
@@ -33,7 +33,7 @@ def getProjectIssues(project_id, startAt = 0):
             args['startAt'] = j['maxResults'] + j['startAt']
             if j['total'] <= j['maxResults'] + j['startAt']:
                 break
-            #sleep(randint(1,10))
+            sleep(randint(1,10))
             tr.reset_identity()
     return issues
 
