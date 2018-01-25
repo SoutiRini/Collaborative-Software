@@ -13,8 +13,10 @@ comments = {}
 proxyPort = randint(10000, 45000)
 controlPort = proxyPort + randint(1,10000)
 
+bugs = [x for sublist in bugs for x in sublist]
+
 with TorRequest(proxy_port=proxyPort, ctrl_port=controlPort, password=None) as tr:
-    for bug in bugs[0]:
+    for bug in bugs:
         urlbits = ['https', 'issues.apache.org', '/bugzilla/rest.cgi/bug/' + str(bug) + '/comment', '', '', '']
         url = urlunparse(urlbits)
         print(url)
