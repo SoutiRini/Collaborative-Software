@@ -26,7 +26,11 @@ with TorRequest(proxy_port=proxyPort, ctrl_port=controlPort, password=None) as t
             print("Something went wrong. Trying again")
             sleep(randint(1,10))
             tr.reset_identity()
-        comments[str(bug)] = resp.json()['bugs'][str(bug)]['comments']
+        j = resp.json()
+        if (str(bug) in j['bugs']):
+            comments[str(bug)] = resp.json()['bugs'][str(bug)]['comments']
+        else:
+            comments[str(bug)] = []
         sleep(randint(1,10))
         tr.reset_identity()
 
