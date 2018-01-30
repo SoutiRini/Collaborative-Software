@@ -3,6 +3,8 @@ from urllib.parse import urlparse, urlencode, urlunparse
 from torrequest import TorRequest
 from random import randint
 from time import sleep
+import json
+from datetime import datetime
 
 def parseUrl(url):
     o = urlparse(url)
@@ -20,17 +22,18 @@ args = {
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7'}
 
 def getProjectIssues(project_id, startAt = 0):
-    args['project'] = project_id
+    args['jql'] = 'project=' + project_id
     args['startAt'] = startAt
     issues = []
+    sleep(10)
     with TorRequest() as tr:
         while True:
             urlbits[4] = urlencode(args)
-            print(urlunparse(urlbits))
+            print('[' + str(datetime.today()) + ']: ' + urlunparse(urlbits))
             try:
                 resp = tr.get(urlunparse(urlbits), headers = headers)
             except:
-                print('Something went wrong. Trying again.')
+                print('[' + str(datetime.today()) + ']: Something went wrong. Trying again.')
                 tr.reset_identity()
                 sleep(randint(1, 10))
                 continue
@@ -49,4 +52,5 @@ with open('jira-projects.csv', 'r') as f:
         project = row[0]
         project_id = parseUrl(row[1])
         issues = getProjectIssues(project_id)
-        json.dump(issues, "jira_issues/" +  project + ".json")
+        with open("jira_issues/" +  project + ".json", 'w') as f:
+            json.dump(issues, f)
