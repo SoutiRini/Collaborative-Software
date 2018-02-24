@@ -35,6 +35,8 @@ def getForProject(path):
     with open(os.path.join(comment_folder, os.path.basename(path))) as f:
         json.dump(fullIssues)
 
+getForProject(os.path.join(issueFolder, 'aaaa.json'))
+
 for entry in os.scandir(issueFolder):
     if entry.is_file():
         getForProject(entry.path)
