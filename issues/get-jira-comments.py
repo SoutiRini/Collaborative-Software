@@ -18,6 +18,7 @@ def getForProject(path):
             issues = json.load(f)
             for issue in issues[0]:
                 url = issue['self']
+                print('Getting' + url)
                 try:
                     resp = tr.get(url, headers=headers)
                 except:
