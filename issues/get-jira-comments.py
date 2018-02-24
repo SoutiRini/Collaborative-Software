@@ -17,7 +17,8 @@ def getForProject(path):
     with TorRequest(proxy_port=proxyPort, ctrl_port=controlPort, password=None) as tr:
         with open(path, 'r') as f:
             issues = json.load(f)
-            for issue in issues[0]:
+            issues = [x for sublist in issues for x in sublist] # flattening 
+            for issue in issues:
                 url = issue['self']
                 print('Getting ' + url)
                 try:
