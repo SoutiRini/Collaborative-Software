@@ -7,10 +7,6 @@ comment_folder = 'jira_comments'
 
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7'}
 
-for entry in os.scandir(issueFolder):
-    if entry.is_file():
-        getForProject(entry.path)
-
 def getForProject(path):
     proxyPort = randint(10000, 45000)
     controlPort = proxyPort + randint(1,10000)
@@ -33,3 +29,7 @@ def getForProject(path):
 
     with open(os.path.join(comment_folder, os.path.basename(path))) as f:
         json.dump(fullIssues)
+
+for entry in os.scandir(issueFolder):
+    if entry.is_file():
+        getForProject(entry.path)
