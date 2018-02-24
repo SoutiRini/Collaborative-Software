@@ -17,7 +17,7 @@ def getForProject(path):
     with TorRequest(proxy_port=proxyPort, ctrl_port=controlPort, password=None) as tr:
         with open(path, 'r') as f:
             issues = json.load(f)
-            issues = [x for sublist in issues for x in sublist] # flattening 
+            issues = [x for sublist in issues for x in sublist] # flattening
             for issue in issues:
                 url = issue['self']
                 print('Getting ' + url)
@@ -32,7 +32,7 @@ def getForProject(path):
                 sleep(randint(1,10))
                 tr.reset_identity()
 
-    with open(os.path.join(comment_folder, os.path.basename(path))) as f:
+    with open(os.path.join(comment_folder, os.path.basename(path)), 'w') as f:
         json.dump(fullIssues)
 
 for entry in os.scandir(issueFolder):
