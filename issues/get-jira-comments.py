@@ -10,6 +10,7 @@ comment_folder = 'jira_comments'
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7'}
 
 def getForProject(path):
+    print('Processing ' + os.path.basename(path))
     proxyPort = randint(10000, 45000)
     controlPort = proxyPort + randint(1,10000)
     fullIssues = []
@@ -18,7 +19,7 @@ def getForProject(path):
             issues = json.load(f)
             for issue in issues[0]:
                 url = issue['self']
-                print('Getting' + url)
+                print('Getting ' + url)
                 try:
                     resp = tr.get(url, headers=headers)
                 except:
