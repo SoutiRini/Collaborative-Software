@@ -1,6 +1,8 @@
 import json
 import os
 from torrequest import TorRequest
+from random import randint
+from time import sleep
 
 issueFolder = 'jira_issues'
 comment_folder = 'jira_comments'
