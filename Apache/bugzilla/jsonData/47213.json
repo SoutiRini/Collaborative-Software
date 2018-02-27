@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "text": "Created attachment 23675\nremove null check from new\n\nCode checks value of new XXX, no need, just clutters the code.", "attachment_id": 23675, "bug_id": 47213, "id": 127086, "time": "2009-05-17T17:25:05Z", "creator": "dbrosius@apache.org", "creation_time": "2009-05-17T17:25:05Z", "is_private": false}]

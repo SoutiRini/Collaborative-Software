@@ -1,0 +1,1 @@
+[{"text": "_encodeDecode(string, mode,output variable) where mode is:\nBASE64_ENCODE\nBASE64_DECODE\nHEX_ENCODE\nHEX_DECODE", "tags": [], "bug_id": 61801, "is_private": false, "count": 0, "id": 202350, "time": "2017-11-22T21:39:43Z", "creator": "p.mouawad@ubik-ingenierie.com", "creation_time": "2017-11-22T21:39:43Z", "attachment_id": null}]

@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 13164, "attachment_id": null, "is_private": false, "id": 23681, "time": "2002-10-01T03:50:22Z", "creator": "Ryan.Lubke@Sun.COM", "creation_time": "2002-10-01T03:50:22Z", "text": "Javadocs state that an ELException is thrown if the VariableResolver is unable\nto resolve the specified variable."}]

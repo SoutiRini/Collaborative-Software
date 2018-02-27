@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 1206, "attachment_id": null, "id": 1711, "time": "2001-04-03T17:55:38Z", "creator": "vincent.hardy@sun.com", "creation_time": "2001-04-03T17:55:38Z", "is_private": false, "text": "Add the ability to search for a text string in an SVG document and\npan to the place where that String is defined and highlight it."}]

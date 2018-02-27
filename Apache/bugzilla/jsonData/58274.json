@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 58274, "text": "Is it time to remove the split method from JOrphanUtils? From the comment and bug #14771 it seems it was only required when we were targeting JDK < 1.4?", "id": 184704, "time": "2015-08-22T21:22:41Z", "creator": "graham@ham1.co.uk", "creation_time": "2015-08-22T21:22:41Z", "is_private": false, "attachment_id": null}]

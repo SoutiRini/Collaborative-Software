@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 36358, "is_private": false, "text": "For each document that is involved in a workflow operation, the request\ndocument's roles are used instead of the individual document's roles.", "id": 78990, "time": "2005-08-25T15:12:14Z", "creator": "andreas@apache.org", "creation_time": "2005-08-25T15:12:14Z", "attachment_id": null}]

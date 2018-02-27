@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 61386, "attachment_id": null, "text": "It would be useful if expressions could extract values out of a Cookie header,\nand the code is already waiting to be reused in mog_log_config.", "id": 200210, "time": "2017-08-06T20:14:27Z", "creator": "covener@gmail.com", "creation_time": "2017-08-06T20:14:27Z", "is_private": false}]

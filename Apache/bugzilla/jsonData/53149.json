@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "text": "mod_ldap should/could use mod_socache for its various caches, currently it has its own apr_rmm based cache.", "attachment_id": null, "id": 158432, "creator": "covener@gmail.com", "time": "2012-04-25T16:38:22Z", "bug_id": 53149, "creation_time": "2012-04-25T16:38:22Z", "is_private": false}]

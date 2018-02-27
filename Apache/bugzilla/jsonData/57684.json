@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 57684, "is_private": false, "text": "When performing a release manual steps need to be done to update the version number. This information should be extracted from the version in the project's POM.", "id": 181643, "time": "2015-03-10T16:24:51Z", "creator": "jboynes@apache.org", "creation_time": "2015-03-10T16:24:51Z", "attachment_id": null}]

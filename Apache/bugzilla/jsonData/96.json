@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 96, "attachment_id": null, "text": "To find out if the request was invoked using the HTTPS protocol, I tried using req.isSecure(), it returns false in HTTPS.", "id": 76, "time": "2000-09-07T20:22:58Z", "creator": "dev@tomcat.apache.org", "creation_time": "2000-09-07T20:22:58Z", "is_private": false}]

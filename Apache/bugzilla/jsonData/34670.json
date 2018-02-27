@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "creator": "gblock@ctoforaday.com", "text": "Please update to mark as serializable and provide a serialVersionUID if appropriate; it interferes with my \nability to use our store implementation.  :)", "id": 74255, "attachment_id": null, "bug_id": 34670, "creation_time": "2005-04-28T21:32:54Z", "time": "2005-04-28T21:32:54Z", "is_private": false}]

@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "text": "At least it is very slow with big archives during 2+ runs. \"ant -v\" also reports that the files are being extracted.", "attachment_id": null, "bug_id": 24260, "id": 46516, "time": "2003-10-30T16:44:20Z", "creator": "alexeys@inventigo.com", "creation_time": "2003-10-30T16:44:20Z", "is_private": false}]

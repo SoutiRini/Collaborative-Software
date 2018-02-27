@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 1784, "text": "Reported by Ana (lindstro@eng.sun.com):\n\nCtrl+T, Ctrl+o, Ctrl+i do not work in JSVGCanvas by default.", "id": 2483, "attachment_id": null, "creator": "vincent.hardy@sun.com", "creation_time": "2001-05-16T15:21:43Z", "time": "2001-05-16T15:21:43Z", "is_private": false}]

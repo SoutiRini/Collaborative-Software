@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "creator": "mike@php.net", "text": "I think the summary is pretty clear, but I'd also be interested in why even not to content-encode on range responses?", "id": 139183, "time": "2010-08-18T02:25:37Z", "bug_id": 49772, "creation_time": "2010-08-18T02:25:37Z", "is_private": false, "attachment_id": null}]

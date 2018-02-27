@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "creator": "vgritsenko@apache.org", "attachment_id": null, "text": "OS X Finder does not mount WebDAV with write access unless server implements LOCK operation from WebDAV 2.0, so it mounts it only in read only mode.", "id": 122282, "time": "2008-11-07T09:17:48Z", "bug_id": 46170, "creation_time": "2008-11-07T09:17:48Z", "is_private": false}]

@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "creator": "paul@roubekas.org", "text": "Putting one file name in the 'filelist' file or one file on the command line \ngives the same error.\n\n\njava -jar batik-slideshow.jar barChart.svg", "id": 21737, "time": "2002-08-26T13:17:31Z", "bug_id": 12039, "creation_time": "2002-08-26T13:17:31Z", "is_private": false, "attachment_id": null}]

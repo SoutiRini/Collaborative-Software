@@ -1,0 +1,1 @@
+[{"count": 0, "attachment_id": null, "creator": "steffi@komrovski.de", "is_private": false, "id": 78573, "time": "2005-08-17T14:26:39Z", "bug_id": 36221, "creation_time": "2005-08-17T14:26:39Z", "tags": [], "text": "Although setting timestamp of false, the log files still have a timestamp."}]

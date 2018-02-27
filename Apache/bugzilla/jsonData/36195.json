@@ -1,0 +1,1 @@
+[{"attachment_id": null, "tags": [], "bug_id": 36195, "text": "at least with the \"-debug\" or \"-v\" option, it would be great if ANT would list\nthe recursive dependency of targets that lead to a particular failure upon dying.", "count": 0, "id": 78506, "time": "2005-08-15T14:50:54Z", "creator": "hauser@acm.org", "creation_time": "2005-08-15T14:50:54Z", "is_private": false}]

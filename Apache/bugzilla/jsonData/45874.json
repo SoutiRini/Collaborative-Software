@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "creator": "g.bronzetti@sourcesense.com", "attachment_id": 22628, "id": 120916, "creation_time": "2008-09-24T06:20:46Z", "time": "2008-09-24T06:20:46Z", "bug_id": 45874, "text": "Created attachment 22628\nSome improvement for XSSFFont\n\nImplemented Enumeration in XSSFFont", "is_private": false}]

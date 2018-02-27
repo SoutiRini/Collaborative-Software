@@ -1,0 +1,1 @@
+[{"count": 0, "text": "When using XMLLayout data, locationInfo is discarded by the XMLSocketReceiver, \nbut the same XML data is read properly by the Open File menu item.", "creator": "drapal@avaya.com", "is_private": false, "id": 58415, "time": "2004-05-30T22:36:06Z", "bug_id": 29305, "creation_time": "2004-05-30T22:36:06Z", "tags": [], "attachment_id": null}]

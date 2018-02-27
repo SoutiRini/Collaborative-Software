@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 50971, "attachment_id": null, "is_private": false, "id": 145252, "time": "2011-03-25T07:07:15Z", "creator": "prajwala08@gmail.com", "creation_time": "2011-03-25T07:07:15Z", "text": "Steps to reproduce : \n            \n1. Go to home page\n2. Find user name\n3. Given blank space\n\nActual result : should not accept"}]

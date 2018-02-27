@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "text": "AuthLDAPGroupAttribute isn't actually checked, may just be unnecessary in practice.", "is_private": false, "bug_id": 55549, "id": 170046, "time": "2013-09-11T18:23:39Z", "creator": "covener@gmail.com", "creation_time": "2013-09-11T18:23:39Z", "attachment_id": null}]

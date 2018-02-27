@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 47, "attachment_id": null, "id": 31, "time": "2001-01-22T14:51:00Z", "creator": "vincent.hardy@sun.com", "creation_time": "2001-01-22T14:51:00Z", "is_private": false, "text": "Modify thumbnail area of interest marker so that the top arrow is smaller and \nthe area of interest has a minimum size (e.g., 10px by 10px)."}]

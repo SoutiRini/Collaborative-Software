@@ -1,0 +1,1 @@
+[{"count": 0, "attachment_id": null, "bug_id": 42384, "is_private": false, "id": 103042, "time": "2007-05-10T08:48:26Z", "creator": "thorsten@apache.org", "creation_time": "2007-05-10T08:48:26Z", "tags": [], "text": "It would be nice if the search result could be configured to output select boxes\nthat one can use to run bulk updates (like delete)."}]

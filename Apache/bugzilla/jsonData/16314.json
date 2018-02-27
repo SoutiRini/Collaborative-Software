@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 16314, "is_private": false, "id": 29843, "creation_time": "2003-01-22T07:27:19Z", "time": "2003-01-22T07:27:19Z", "creator": "w.rittmeyer@proplant.de", "text": "The MailerVisualizer mixes gui-code and logic. Therefore it does not run in\nnon-GUI-mode. A clean separation is necessary.", "attachment_id": null}]

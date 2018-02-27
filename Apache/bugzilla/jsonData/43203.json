@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "creator": "ragaller@apache.org", "attachment_id": null, "id": 107183, "time": "2007-08-23T11:54:00Z", "bug_id": 43203, "creation_time": "2007-08-23T11:54:00Z", "is_private": false, "text": "width height and title properties of an image are not transfered back to the\neditor window of tinyMCE. Tested in Firefox under osx."}]

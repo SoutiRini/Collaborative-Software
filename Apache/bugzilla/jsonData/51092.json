@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 51092, "is_private": false, "id": 145902, "creation_time": "2011-04-20T07:54:55Z", "time": "2011-04-20T07:54:55Z", "creator": "hauser@acm.org", "text": "currently it doesn't appear possible to store a finished test into a *.jtl unless this was know prior to the test plan start?", "attachment_id": null}]

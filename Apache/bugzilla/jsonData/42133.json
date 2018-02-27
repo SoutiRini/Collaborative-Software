@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "creator": "andreas@apache.org", "attachment_id": null, "is_private": false, "id": 101748, "time": "2007-04-16T02:06:38Z", "bug_id": 42133, "creation_time": "2007-04-16T02:06:38Z", "text": "I18n messages should be editable in a simple way, preferrably in-place. This\ncould be done with AJAX."}]

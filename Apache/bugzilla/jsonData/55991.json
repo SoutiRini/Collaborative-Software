@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "creator": "covener@gmail.com", "text": "mod_charset_lite doesn't bail out on non-identity Content-Encoding, e.g. pre-compressed text/* content.", "id": 172295, "time": "2014-01-12T01:49:06Z", "bug_id": 55991, "creation_time": "2014-01-12T01:49:06Z", "is_private": false, "attachment_id": null}]

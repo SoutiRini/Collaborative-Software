@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 18952, "attachment_id": null, "text": "org.apache.tools.ant.taskdefs.compilers.Jikes\n\nJDC of execute() contains two dots (.) after \"IBM\":\n\n     * Performs a compile using the Jikes compiler from IBM..", "id": 34971, "time": "2003-04-11T13:44:56Z", "creator": "jan@materne.de", "creation_time": "2003-04-11T13:44:56Z", "is_private": false}]

@@ -1,0 +1,1 @@
+[{"attachment_id": null, "tags": [], "bug_id": 58142, "is_private": false, "count": 0, "id": 184037, "time": "2015-07-15T13:52:19Z", "creator": "jorgepinho@hotmail.com", "creation_time": "2015-07-15T13:52:19Z", "text": "Having a very simple directive in main conf\n\n\nLogLevel error\nor\nLogLevel debug authz_core:error\n\n\n\nI still have this log lines:\n\n[authz_core:debug]"}]

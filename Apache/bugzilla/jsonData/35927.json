@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "creator": "paul.hussein@hapnin.net", "attachment_id": null, "id": 77826, "time": "2005-07-29T13:43:24Z", "bug_id": 35927, "creation_time": "2005-07-29T13:43:24Z", "is_private": false, "text": "I have enabled use-rdbms-expression-factory on mysql 4.1 and \nDASL searching does not work."}]

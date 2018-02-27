@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "text": "Created attachment 32080\nPatch to fix cross-compilation\n\nThis patch was ported from https://issues.apache.org/bugzilla/show_bug.cgi?id=51257", "is_private": false, "bug_id": 57058, "id": 178291, "time": "2014-10-05T09:28:44Z", "creator": "bernd.kuhls@t-online.de", "creation_time": "2014-10-05T09:28:44Z", "attachment_id": 32080}]

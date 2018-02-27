@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "text": "Some SQL statements require JDBC CallableStatements to be executed with. The \nsql task that comes with Ant does not support such SQL statements.", "attachment_id": null, "id": 74525, "creator": "holger.schimanski@bayerbbs.com", "time": "2005-05-06T12:59:42Z", "bug_id": 34777, "creation_time": "2005-05-06T12:59:42Z", "is_private": false}]

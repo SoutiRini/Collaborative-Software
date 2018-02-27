@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 45669, "attachment_id": null, "id": 120013, "time": "2008-08-22T01:49:12Z", "creator": "cam@apache.org", "creation_time": "2008-08-22T01:49:12Z", "is_private": false, "text": "Should use Euclidean distance (in AnimatableTransformListValue.distanceTo()).  Make sure these align with the \"Paced animation and complex types\" in 1.2T."}]

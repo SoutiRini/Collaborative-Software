@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "text": "The xmlns=\"\" and xmlns:xlink=\"\" is missing on all the samples. These are \nrequired by the SVG specification.", "is_private": false, "id": 8091, "creation_time": "2001-11-20T05:38:46Z", "time": "2001-11-20T05:38:46Z", "creator": "vincent.hardy@sun.com", "bug_id": 4971, "attachment_id": null}]

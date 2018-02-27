@@ -1,0 +1,1 @@
+[{"count": 0, "attachment_id": null, "bug_id": 4071, "is_private": false, "id": 6540, "time": "2001-10-10T07:29:07Z", "creator": "tkormann@apache.org", "creation_time": "2001-10-10T07:29:07Z", "tags": [], "text": "The samples/tests/smiley.svg fails. The title style changes when using an\nalternate stylesheet (ie. the <style> element is ignored)."}]

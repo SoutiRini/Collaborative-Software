@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "creator": "gadams@apache.org", "attachment_id": null, "is_private": false, "id": 158278, "time": "2012-04-22T19:26:02Z", "bug_id": 53124, "creation_time": "2012-04-22T19:26:02Z", "text": "the following color function, defined in XSL-FO 1.1 5.10.2, does not appear to have any test case (or use):\n\nsystem-color(NCname)"}]

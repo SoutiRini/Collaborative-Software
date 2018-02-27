@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 42761, "text": "I guess the problem is that the proxy settings are not honored when the image\nURL is created.", "id": 104807, "time": "2007-06-28T02:44:43Z", "creator": "andreas@apache.org", "creation_time": "2007-06-28T02:44:43Z", "is_private": false, "attachment_id": null}]

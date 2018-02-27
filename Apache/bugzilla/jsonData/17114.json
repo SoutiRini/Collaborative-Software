@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 17114, "attachment_id": null, "id": 31401, "time": "2003-02-17T04:36:57Z", "creator": "robertlaferla@attbi.com", "creation_time": "2003-02-17T04:36:57Z", "is_private": false, "text": "Please add strip and install-strip targets to Makefile so that executables can \nbe stripped of debugging symbols for installation."}]

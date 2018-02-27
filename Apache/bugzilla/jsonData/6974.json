@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 6974, "text": "Access to this buffer is not synchronized, but then why is it static?  \n\n   private static char[] fCharacters = new char[256]", "id": 11563, "time": "2002-03-08T06:23:57Z", "creator": "tom.stockdale@riskmetrics.com", "creation_time": "2002-03-08T06:23:57Z", "is_private": false, "attachment_id": null}]

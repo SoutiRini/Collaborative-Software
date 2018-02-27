@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 57505, "attachment_id": null, "text": "The test suite should run JspC over webapps to verify the standalone translation behaviour (outside the container).", "id": 180597, "time": "2015-01-27T17:00:40Z", "creator": "jboynes@apache.org", "creation_time": "2015-01-27T17:00:40Z", "is_private": false}]

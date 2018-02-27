@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "creator": "andreas@apache.org", "is_private": false, "text": "There are two webtest.home entries in build.properties (both commented out). One\nshould be removed.", "id": 102295, "time": "2007-04-25T02:50:17Z", "bug_id": 42234, "creation_time": "2007-04-25T02:50:17Z", "attachment_id": null}]

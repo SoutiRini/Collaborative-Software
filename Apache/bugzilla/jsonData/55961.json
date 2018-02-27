@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "creator": "syrion@gmail.com", "attachment_id": null, "text": "There's a typo in src/main/java/org/apache/log4j/joran/action/LoggerAction.java -- retreiving instead of retrieving.", "id": 172114, "time": "2014-01-06T16:25:11Z", "bug_id": 55961, "creation_time": "2014-01-06T16:25:11Z", "is_private": false}]

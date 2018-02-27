@@ -1,0 +1,1 @@
+[{"count": 0, "attachment_id": null, "bug_id": 47538, "text": "A duplicated version is generated if editing is canceled. A second file with the same content can be found at the repository.", "id": 128879, "time": "2009-07-15T11:08:45Z", "creator": "rudolf.korhummel@uniklinik-freiburg.de", "creation_time": "2009-07-15T11:08:45Z", "tags": [], "is_private": false}]

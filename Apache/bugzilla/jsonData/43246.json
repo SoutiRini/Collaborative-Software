@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 43246, "text": "When zooming, an event of type 'SVGZoom' is dispatched, but it is an SVGEvent\nand not an SVGZoomEvent object.", "id": 107453, "time": "2007-08-29T20:03:45Z", "creator": "cam@apache.org", "creation_time": "2007-08-29T20:03:45Z", "is_private": false, "attachment_id": null}]

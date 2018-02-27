@@ -1,0 +1,1 @@
+[{"count": 0, "attachment_id": null, "bug_id": 42382, "text": "The search should not return documents in the result, that the user cannot see\nbecause she does not have sufficient rights.", "id": 103040, "time": "2007-05-10T08:38:52Z", "creator": "thorsten@apache.org", "creation_time": "2007-05-10T08:38:52Z", "tags": [], "is_private": false}]

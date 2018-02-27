@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 54975, "text": "If I delete all content of the log file and save the result, file size is not reset to \"0\" and there is a NULL string in a log. This issue occurs intermittently.", "id": 167214, "attachment_id": null, "creator": "vadyans@gmail.com", "creation_time": "2013-05-15T09:50:25Z", "time": "2013-05-15T09:50:25Z", "is_private": false}]

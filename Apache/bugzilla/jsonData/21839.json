@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "creator": "mstover1@apache.org", "attachment_id": null, "id": 41270, "time": "2003-07-24T02:16:53Z", "bug_id": 21839, "creation_time": "2003-07-24T02:16:53Z", "is_private": false, "text": "If two thread groups have the same name, their threads can interfere with each\nother because they are given the same thread names."}]

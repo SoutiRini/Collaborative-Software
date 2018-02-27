@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "creator": "covener@gmail.com", "is_private": false, "id": 170047, "attachment_id": null, "bug_id": 55550, "creation_time": "2013-09-11T18:24:50Z", "time": "2013-09-11T18:24:50Z", "text": "AuthLDAPSubGroupClass iterates over the cn=* for the parent group, but a filter could just be built with all the objectClass'es and do this on the server."}]

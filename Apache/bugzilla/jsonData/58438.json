@@ -1,0 +1,1 @@
+[{"count": 0, "attachment_id": null, "creator": "gilstracjunk@gmail.com", "text": "A paramaterized junit tests report only has test name and index in the report.\n\n\ntest name test will have\n\ntest[0]\ntest[1] and so on.", "id": 185391, "time": "2015-09-21T19:01:29Z", "bug_id": 58438, "creation_time": "2015-09-21T19:01:29Z", "tags": [], "is_private": false}]

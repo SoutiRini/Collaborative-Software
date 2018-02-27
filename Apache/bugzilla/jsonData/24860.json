@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "creator": "egli@apache.org", "attachment_id": null, "id": 47696, "time": "2003-11-20T15:09:32Z", "bug_id": 24860, "creation_time": "2003-11-20T15:09:32Z", "is_private": false, "text": "If you remove an element in the forms editor and press cancel afterwards the\nelement is still removed."}]

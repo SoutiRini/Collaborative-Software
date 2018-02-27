@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "creator": "florent.andre-dev@4sengines.com", "attachment_id": null, "text": "Some actual Lenya dependencies are not available throw maven central, put them in svn and reference this new site in pom.", "id": 164644, "time": "2013-01-16T01:20:23Z", "bug_id": 54424, "creation_time": "2013-01-16T01:20:23Z", "is_private": false}]

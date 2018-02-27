@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "creator": "alexeys@inventigo.com", "text": "It looks like internal implementation does not accept nested text. ANT complains that text is not supported by <subst> taks.", "id": 69615, "time": "2005-01-12T20:53:32Z", "bug_id": 33073, "creation_time": "2005-01-12T20:53:32Z", "is_private": false, "attachment_id": null}]

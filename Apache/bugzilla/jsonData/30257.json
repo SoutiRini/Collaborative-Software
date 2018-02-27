@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 30257, "text": "does slide support MaxDB? we've found it does not support some SQl queries like \n\"delete tab1 from tab1, tab2 where tab1.id = tab2.id\"", "id": 60959, "time": "2004-07-22T12:18:32Z", "creator": "kartik.parmesh@rave-tech.com", "creation_time": "2004-07-22T12:18:32Z", "is_private": false, "attachment_id": null}]

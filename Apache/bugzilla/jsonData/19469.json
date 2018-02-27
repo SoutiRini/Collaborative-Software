@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "creator": "gbenson@redhat.com", "attachment_id": null, "id": 36370, "time": "2003-04-30T11:51:55Z", "bug_id": 19469, "creation_time": "2003-04-30T11:51:55Z", "is_private": false, "text": "The admin webapp's build.xml file refers to ${common-beanutils.jar}; it should\nrefer to ${commons-beanutils.jar} instead."}]

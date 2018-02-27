@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "creator": "vincent.hardy@sun.com", "attachment_id": null, "id": 26343, "time": "2002-11-15T08:11:37Z", "bug_id": 14582, "creation_time": "2002-11-15T08:11:37Z", "is_private": false, "text": "Batik ignores the transform attribute on switch elements."}]
