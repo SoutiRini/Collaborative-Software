@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 52994, "text": "JDK 8 javac supports a -h option to generate native headers. Ant's <javac> could support this, obsoleting <javah>.", "id": 155330, "time": "2012-03-28T00:29:40Z", "creator": "jglick@apache.org", "creation_time": "2012-03-28T00:29:40Z", "is_private": false, "attachment_id": null}]

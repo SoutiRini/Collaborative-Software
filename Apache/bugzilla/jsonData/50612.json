@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 50612, "attachment_id": null, "id": 143448, "creation_time": "2011-01-18T15:57:49Z", "time": "2011-01-18T15:57:49Z", "creator": "cam@apache.org", "text": "CSS does not allow scientific notation to be used in style=\"\" attributes.", "is_private": false}]

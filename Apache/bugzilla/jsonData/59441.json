@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "text": "The docs tree can be completely generated from xdocs and it should be possible to drop it from SVN.\n\nThis will need some changes to the release process.", "attachment_id": null, "bug_id": 59441, "id": 190769, "time": "2016-05-08T14:58:52Z", "creator": "sebb@apache.org", "creation_time": "2016-05-08T14:58:52Z", "is_private": false}]

@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "creator": "fredrik.westermarck@mdh.se", "attachment_id": null, "id": 74942, "time": "2005-05-16T22:12:00Z", "bug_id": 34939, "creation_time": "2005-05-16T22:12:00Z", "is_private": false, "text": "The path to configure in the exemple given in the file jk/BUILD.txt for\njtc-jk-1.2.13 should be './configure' instead of '../configure'."}]

@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "creator": "pterjan@linuxfr.org", "attachment_id": 32518, "is_private": false, "id": 181305, "time": "2015-02-24T18:33:38Z", "bug_id": 57631, "creation_time": "2015-02-24T18:33:38Z", "text": "Created attachment 32518\nPatch removing the always false condition\n\ntest -z \"${SYSTEMD_LIBS} can not be true if test -n \"$SYSTEMD_LIBS\" is true."}]

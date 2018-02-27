@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 55700, "attachment_id": null, "id": 170811, "time": "2013-10-24T14:52:42Z", "creator": "covener@gmail.com", "creation_time": "2013-10-24T14:52:42Z", "is_private": false, "text": "Currently you have to \"pull\" the inherit in each vhost.  It would be nice if there was an option to \"push\" the inheritance once in global scope."}]

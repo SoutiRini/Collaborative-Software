@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 38582, "attachment_id": null, "text": "Clicking on any of the Receiver items in the Help menu does nothing because the\nHTML files are not there.", "id": 85615, "time": "2006-02-08T22:26:01Z", "creator": "psmith@apache.org", "creation_time": "2006-02-08T22:26:01Z", "is_private": false}]

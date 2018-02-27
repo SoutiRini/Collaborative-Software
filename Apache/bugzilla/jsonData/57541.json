@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 57541, "attachment_id": null, "id": 180796, "time": "2015-02-05T14:11:45Z", "creator": "sebb@apache.org", "creation_time": "2015-02-05T14:11:45Z", "is_private": false, "text": "TrustAllSSLSocketFactory has no mutable state, and could be a singleton created via an IODH."}]

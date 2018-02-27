@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 8403, "attachment_id": null, "id": 14404, "time": "2002-04-23T07:41:39Z", "creator": "vincent.hardy@sun.com", "creation_time": "2002-04-23T07:41:39Z", "is_private": false, "text": "Mostly for error messages, so that they can be localized."}]

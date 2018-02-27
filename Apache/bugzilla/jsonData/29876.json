@@ -1,0 +1,1 @@
+[{"count": 0, "text": "Remove the containsKey test and just let the Hashtable get method return null \nif the status code isn't found and avoid a double lookup.", "creator": "Robert_Flaherty@Hyperion.com", "is_private": false, "id": 60085, "time": "2004-07-01T16:47:50Z", "bug_id": 29876, "creation_time": "2004-07-01T16:47:50Z", "tags": [], "attachment_id": null}]

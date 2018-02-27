@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "creator": "vincent.hardy@sun.com", "text": "The viewer should report all exceptions in a dialog box, including runtime \nexceptions. As of rc9, runtime exceptions are not reported to the end user.", "id": 2156, "time": "2001-04-27T15:55:12Z", "bug_id": 1569, "creation_time": "2001-04-27T15:55:12Z", "is_private": false, "attachment_id": null}]

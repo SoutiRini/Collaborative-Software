@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "text": "It could be useful to add to FTP GUI Sampler ability to choose FTPS protocol.\nWe could use org.apache.commons.net.ftp.FTPSClient", "is_private": false, "id": 151905, "creation_time": "2011-12-01T20:53:40Z", "time": "2011-12-01T20:53:40Z", "creator": "p.mouawad@ubik-ingenierie.com", "bug_id": 52273, "attachment_id": null}]

@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 41297, "text": "Moving down the \"Home\" node in the sitetree is not allowed, but moving up the\n\"Tutorial\" node (which leads to the same result) is allowed.", "id": 97682, "time": "2007-01-05T01:52:38Z", "creator": "andreas@apache.org", "creation_time": "2007-01-05T01:52:38Z", "is_private": false, "attachment_id": null}]

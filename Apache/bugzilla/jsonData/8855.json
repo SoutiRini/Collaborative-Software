@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 8855, "attachment_id": null, "text": "HTMLCollection.namedItem is not looking at the name attribute,\n(though the documentation says that).", "id": 15610, "time": "2002-05-07T08:58:30Z", "creator": "step1b@cyberspace.org", "creation_time": "2002-05-07T08:58:30Z", "is_private": false}]

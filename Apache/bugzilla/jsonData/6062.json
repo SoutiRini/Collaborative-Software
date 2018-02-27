@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "text": "When it compiles a JSP with a BodyTag, the translate result has a bug. The JSP \nnever calls doAfterBody() method of the tag.", "attachment_id": null, "bug_id": 6062, "id": 9974, "time": "2002-01-28T10:37:44Z", "creator": "rjimenez@tissat.es", "creation_time": "2002-01-28T10:37:44Z", "is_private": false}]

@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "text": "With the folowwing class method :\npublic void test (int i) {\ntry {\n\n}catch (Exception ex) {\n}\n}", "is_private": false, "bug_id": 18693, "id": 34492, "time": "2003-04-04T07:47:23Z", "creator": "hamma_chabane@hotmail.com", "creation_time": "2003-04-04T07:47:23Z", "attachment_id": null}]

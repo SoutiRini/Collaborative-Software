@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "text": "When invoking a custom task, the jars specified in the classpath or classpath reference are not searched when the custom task is invoked.", "is_private": false, "id": 120618, "creator": "andrew.cross@glu.com", "time": "2008-09-15T07:38:28Z", "bug_id": 45810, "creation_time": "2008-09-15T07:38:28Z", "attachment_id": null}]

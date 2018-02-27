@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "creator": "sebb@apache.org", "text": "Might be useful to implement connection and socket timeouts, i.e.\n\nmail.{protocol}.connectiontimeout\nmail.{protocol}.timeout", "id": 174717, "time": "2014-04-19T00:09:47Z", "bug_id": 56432, "creation_time": "2014-04-19T00:09:47Z", "is_private": false, "attachment_id": null}]

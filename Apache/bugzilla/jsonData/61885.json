@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "creator": "orimarko@gmail.com", "text": "Scenario:\n\n1. Open file\n2. Change test plan\n3. Click Ctrl+S (Save)\n4. File-> Revert is enabled but do no action\n\nRevert should be disabled after Save.", "id": 202683, "time": "2017-12-10T16:33:15Z", "bug_id": 61885, "creation_time": "2017-12-10T16:33:15Z", "is_private": false, "attachment_id": null}]

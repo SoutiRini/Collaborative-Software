@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "creator": "vincent.hardy@sun.com", "attachment_id": null, "id": 43, "time": "2001-01-22T15:08:12Z", "bug_id": 59, "creation_time": "2001-01-22T15:08:12Z", "is_private": false, "text": "Add new implementation of ImageHandler interface and make it default."}]

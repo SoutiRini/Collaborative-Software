@@ -1,0 +1,1 @@
+[{"attachment_id": null, "tags": [], "bug_id": 2898, "text": "Implementation of XML base.\nModify the implementation of the <use> element (external or internal) to use\nthe XML base stuff.", "count": 0, "id": 4147, "time": "2001-07-30T10:21:30Z", "creator": "tkormann@apache.org", "creation_time": "2001-07-30T10:21:30Z", "is_private": false}]

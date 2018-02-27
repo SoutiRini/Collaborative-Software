@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "creator": "Vijay.Alla-non-empl@moodys.com", "attachment_id": null, "is_private": false, "id": 169703, "time": "2013-08-26T09:20:36Z", "bug_id": 55481, "creation_time": "2013-08-26T09:20:36Z", "text": "Log4J configuration in Virgo jetty server is not creating the logs files at server side for deployed bundles."}]

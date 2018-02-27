@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "creator": "tuure.laurinolli@portalify.com", "attachment_id": null, "id": 168757, "time": "2013-07-24T11:29:55Z", "bug_id": 55302, "creation_time": "2013-07-24T11:29:55Z", "is_private": false, "text": "The FAQ item at http://logging.apache.org/log4j/1.2/faq.html#sysprops mentions log4j.configurationClass when log4j.configuratorClass is meant."}]

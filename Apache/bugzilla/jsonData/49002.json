@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "text": "Many unit tests would fail when run under gcj or Apache Harmony due to overly-specific expectations of the stack trace (particularly around reflection calls).", "attachment_id": null, "bug_id": 49002, "id": 135694, "time": "2010-03-27T05:18:56Z", "creator": "carnold@apache.org", "creation_time": "2010-03-27T05:18:56Z", "is_private": false}]

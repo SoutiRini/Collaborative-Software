@@ -1,0 +1,1 @@
+[{"count": 0, "attachment_id": null, "bug_id": 37816, "is_private": false, "id": 83361, "time": "2005-12-07T06:56:40Z", "creator": "ngupte@aurigalogic.com", "creation_time": "2005-12-07T06:56:40Z", "tags": [], "text": "If I rename a file, say test.txt to test2.txt, then on refresh, it creates a\nfolder called test2.txt.\nI have observed this using WCK's WebdavFileStore"}]

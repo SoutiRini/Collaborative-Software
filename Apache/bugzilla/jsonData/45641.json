@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "creator": "asharapov@tengry.com", "text": "HSSFSheet should has methods for getting information about column and row groups on sheet. Now we have methods only for creating new groups.", "id": 119874, "time": "2008-08-17T04:45:01Z", "bug_id": 45641, "creation_time": "2008-08-17T04:45:01Z", "is_private": false, "attachment_id": null}]

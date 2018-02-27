@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 60843, "is_private": false, "text": "See https://bugs.chromium.org/p/chromium/issues/detail?id=700047#c5\n\nIf no SCTs are configured, the module should not send the extension.", "id": 197576, "time": "2017-03-09T19:58:19Z", "creator": "tom@ritter.vg", "creation_time": "2017-03-09T19:58:19Z", "attachment_id": null}]

@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 24621, "attachment_id": null, "text": "it does not seem possible to schedule jobs in the default publication. they fail\nto show up in the jobs list after being submitted.", "id": 47209, "time": "2003-11-11T20:27:33Z", "creator": "gregor@apache.org", "creation_time": "2003-11-11T20:27:33Z", "is_private": false}]

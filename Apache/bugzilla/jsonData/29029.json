@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 29029, "attachment_id": null, "text": "The SSL encryption is inherited to child pages, but the SSL checkbox in the \"AC\nLive\" tab of the child page does not indicate this.", "id": 57533, "time": "2004-05-17T08:53:42Z", "creator": "andreas@apache.org", "creation_time": "2004-05-17T08:53:42Z", "is_private": false}]

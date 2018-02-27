@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 10112, "attachment_id": null, "id": 18293, "time": "2002-06-21T11:47:47Z", "creator": "vincent.hardy@sun.com", "creation_time": "2002-06-21T11:47:47Z", "is_private": false, "text": "The onload event should be dependent on the externalResourcesRequired\nattribute. Currently (as of 1.5beta3), externalResourcesRequired is ignored."}]

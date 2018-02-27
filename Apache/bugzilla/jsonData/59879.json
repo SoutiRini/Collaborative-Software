@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 59879, "text": "See subject (I can supply a simple test when needed).\n\nIt probably would be good to also check hashCode() and other proxy objects for the same problem.", "id": 192474, "attachment_id": null, "creator": "julian.reschke@gmx.de", "creation_time": "2016-07-18T08:03:16Z", "time": "2016-07-18T08:03:16Z", "is_private": false}]

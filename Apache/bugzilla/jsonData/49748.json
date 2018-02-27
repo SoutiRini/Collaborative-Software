@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "creator": "grk@usa.net", "attachment_id": null, "id": 139085, "time": "2010-08-13T10:38:13Z", "bug_id": 49748, "creation_time": "2010-08-13T10:38:13Z", "is_private": false, "text": "Please remove the 'final' modifier from the org.apache.tools.ant.filters.ReplaceTokens class definition so that it can be subclassed."}]

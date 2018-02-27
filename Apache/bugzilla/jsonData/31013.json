@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "creator": "jaeger@our-isp.org", "attachment_id": null, "is_private": false, "id": 62952, "time": "2004-09-02T11:20:10Z", "bug_id": 31013, "creation_time": "2004-09-02T11:20:10Z", "text": "The JAR file lib/servlet-2.3.jar should not be distributed with the\nwebapp (target webapp-dist). It is ignored by the servlet container anyway."}]

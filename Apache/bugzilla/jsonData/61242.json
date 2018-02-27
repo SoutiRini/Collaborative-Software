@@ -1,0 +1,1 @@
+[{"text": "LogLevel works per-directory, but is not allowed in htaccess. Lots of stuck mod_rewrite users can't enable trace since 2.4.", "tags": [], "bug_id": 61242, "is_private": false, "count": 0, "id": 199507, "time": "2017-06-30T12:21:55Z", "creator": "covener@gmail.com", "creation_time": "2017-06-30T12:21:55Z", "attachment_id": null}]

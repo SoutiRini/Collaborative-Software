@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 37989, "text": "When printing an SVG document, the print dialog comes up twice, and apparently\nonly the second time is the one that sends the document to the printer.", "id": 83882, "time": "2005-12-21T12:24:16Z", "creator": "montechristos@gmail.com", "creation_time": "2005-12-21T12:24:16Z", "is_private": false, "attachment_id": null}]

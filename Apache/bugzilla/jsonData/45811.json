@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 45811, "attachment_id": null, "text": "Fix a bunch of potential issues reported by running the findbugs tool on the XMLSec 1.4.2 library.", "id": 120626, "time": "2008-09-15T09:04:19Z", "creator": "sean.mullan@oracle.com", "creation_time": "2008-09-15T09:04:19Z", "is_private": false}]

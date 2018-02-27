@@ -1,0 +1,1 @@
+[{"count": 0, "attachment_id": null, "bug_id": 54813, "is_private": false, "id": 166459, "time": "2013-04-08T10:55:41Z", "creator": "covener@gmail.com", "creation_time": "2013-04-08T10:55:41Z", "tags": [], "text": "in 2.2 it processed group and file-group\nin 2.4 it processes only dbm-group and dbm-file-group."}]

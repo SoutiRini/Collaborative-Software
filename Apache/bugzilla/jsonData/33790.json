@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "creator": "bourinov@gmail.com", "attachment_id": null, "id": 71667, "time": "2005-03-01T16:33:03Z", "bug_id": 33790, "creation_time": "2005-03-01T16:33:03Z", "is_private": false, "text": "My servlets return 3F (in HEX) instead of D5\n\nExample of code:\n\nout.print(new String(new byte[]{(byte)0xD5}));\n\nResult must be, D5, I suppose, but it is 3F"}]

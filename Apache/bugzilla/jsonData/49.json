@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 49, "attachment_id": null, "id": 33, "time": "2001-01-22T14:56:47Z", "creator": "vincent.hardy@sun.com", "creation_time": "2001-01-22T14:56:47Z", "is_private": false, "text": "Implement antialiased clipping when the rendering quality hint is on."}]

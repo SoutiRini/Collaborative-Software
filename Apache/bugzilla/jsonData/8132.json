@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 8132, "attachment_id": null, "is_private": false, "id": 13701, "time": "2002-04-15T23:06:48Z", "creator": "mdelagra@eb.com", "creation_time": "2002-04-15T23:06:48Z", "text": "You have to set the driver attribute with every request in the sql:setDriver \ntag.  That seems like overkill, since a Driver only needs to be registered once."}]

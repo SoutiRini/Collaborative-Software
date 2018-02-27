@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 58, "attachment_id": null, "text": "Add proper error handling when 2 gradients have the same offset.", "id": 42, "time": "2001-01-22T15:07:03Z", "creator": "vincent.hardy@sun.com", "creation_time": "2001-01-22T15:07:03Z", "is_private": false}]

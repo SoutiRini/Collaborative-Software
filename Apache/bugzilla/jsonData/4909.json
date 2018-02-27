@@ -1,0 +1,1 @@
+[{"count": 0, "text": "The image used to trigger class loading causes an exception in JDK 1.4b3.", "bug_id": 4909, "is_private": false, "id": 7972, "time": "2001-11-16T00:42:25Z", "creator": "vincent.hardy@sun.com", "creation_time": "2001-11-16T00:42:25Z", "tags": [], "attachment_id": null}]

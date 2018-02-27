@@ -1,0 +1,1 @@
+[{"count": 0, "attachment_id": null, "bug_id": 40968, "is_private": false, "id": 95812, "time": "2006-11-14T02:58:18Z", "creator": "andreas@apache.org", "creation_time": "2006-11-14T02:58:18Z", "tags": [], "text": "If you create your own publication and try to import the example content, you\nget an error message."}]

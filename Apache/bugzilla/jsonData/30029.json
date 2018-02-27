@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 30029, "attachment_id": null, "text": "I think some javadocs are necessary to explain the methods of this class (e.g.,\nwhat happens when an error occurs, what does the output String contain, ...)", "id": 60423, "time": "2004-07-11T00:13:39Z", "creator": "andreas@apache.org", "creation_time": "2004-07-11T00:13:39Z", "is_private": false}]

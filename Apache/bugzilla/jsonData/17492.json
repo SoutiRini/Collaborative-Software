@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 17492, "attachment_id": null, "text": "Interestingly enough, if the same situation occurs within a Tag file in XML\nsyntax, the behavior is as expected and no declaration is generated.", "id": 32089, "time": "2003-02-27T15:23:12Z", "creator": "Ryan.Lubke@Sun.COM", "creation_time": "2003-02-27T15:23:12Z", "is_private": false}]

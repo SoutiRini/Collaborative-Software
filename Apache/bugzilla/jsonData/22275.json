@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 22275, "attachment_id": null, "id": 42473, "time": "2003-08-10T01:02:20Z", "creator": "tjsb@slb.com", "creation_time": "2003-08-10T01:02:20Z", "is_private": false, "text": "XMLAssertion.java uses Jdom, so jdom.jar needs to be included in external.jars"}]

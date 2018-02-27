@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "creator": "edith@apache.org", "attachment_id": null, "id": 78332, "time": "2005-08-10T11:39:58Z", "bug_id": 36115, "creation_time": "2005-08-10T11:39:58Z", "is_private": false, "text": "The mail's subject must be sent as ASCII, and not as utf8, ... With some Mail\nServer the subject is then wrong encoded."}]

@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 3525, "attachment_id": null, "id": 5293, "time": "2001-09-10T07:48:51Z", "creator": "tkormann@apache.org", "creation_time": "2001-09-10T07:48:51Z", "is_private": false, "text": "the bridge clips SVG image (the outer most SVG element)\nneed to be fixed (as SVG image can overflow)."}]

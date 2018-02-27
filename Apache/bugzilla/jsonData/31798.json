@@ -1,0 +1,1 @@
+[{"attachment_id": null, "tags": [], "bug_id": 31798, "is_private": false, "count": 0, "id": 65348, "time": "2004-10-20T09:14:36Z", "creator": "andreas@apache.org", "creation_time": "2004-10-20T09:14:36Z", "text": "The JavaFilenameFilter copies only .java and .properties files. Logicsheets are\nleft out."}]

@@ -1,0 +1,1 @@
+[{"count": 0, "tags": [], "bug_id": 8330, "attachment_id": null, "text": "StaticRenderer#repaint() throws InterruptedException.\nBut it never throws it. Even if the thread is interrupted,\nit returns normally.", "id": 14139, "time": "2002-04-20T15:33:31Z", "creator": "paf03212@nifty.ne.jp", "creation_time": "2002-04-20T15:33:31Z", "is_private": false}]
