@@ -33,7 +33,7 @@ def getForProject(path):
                 tr.reset_identity()
 
     with open(os.path.join(comment_folder, os.path.basename(path)), 'w') as f:
-        json.dump(fullIssues)
+        json.dump(fullIssues, f)
 
 getForProject(os.path.join(issueFolder, 'aaaa.json'))
 
