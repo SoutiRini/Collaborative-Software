@@ -52,13 +52,15 @@ def getForProject(path):
             count = 1
             while count <= 3:
                 try:
-                    resp = session.get(url, headers=headers)
+                    resp = session.get(url, headers=headers, timeout=30)
                     break
+                except requests.exceptions.Timeout:
+                    print("Connection timed out. Trying again (" + str(count) + "/3)...")
                 except:
                     print("Something went wrong. Trying again (" + str(count) + "/3)...")
-                    sleep(randint(1,10))
-                    ctrl.signal(Signal.NEWNYM)
-                    count = count + 1
+                sleep(randint(1,10))
+                ctrl.signal(Signal.NEWNYM)
+                count = count + 1
             try:
                 j = resp.json()
             except:
@@ -71,7 +73,7 @@ def getForProject(path):
     session.close()
     ctrl.close()
     tor_proc.terminate()
-    shutil.rmtree(os.path.expanduser(data_dir))
+    shutil.rmtree(os.path.expanduser(data_dir), ignore_errors=True)
 
     with open(os.path.join(comment_folder, os.path.basename(path)), 'w') as f:
         json.dump(fullIssues, f)
