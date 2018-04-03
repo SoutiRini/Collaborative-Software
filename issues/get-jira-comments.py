@@ -45,8 +45,12 @@ def getForProject(path):
     fullIssues = []
     with open(path, 'r') as f:
         issues = json.load(f)
+        if ('issues' in issues):
+            issues = issues['issues']
         issues = [x for sublist in issues for x in sublist] # flattening
         for issue in issues:
+            if not 'self' in issue:
+                continue
             url = issue['self']
             print('Getting ' + url)
             count = 1
