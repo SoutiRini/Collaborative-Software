@@ -87,16 +87,54 @@ texts = data_lemmatized
 # Term Document Frequency
 corpus = [id2word.doc2bow(text) for text in texts]
 
-lda_model = gensim.models.ldamodel.LdaModel(corpus=corpus,
-                                           id2word=id2word,
-                                           num_topics=20,
-                                           random_state=100,
-                                           update_every=1,
-                                           chunksize=100,
-                                           passes=10,
-                                           alpha='auto',
-                                           per_word_topics=True)
+# Hyperoptimization
+from hyperopt import hp
+from hyperopt import fmin, tpe, Trials
 
+space = {}
+
+space['corpus'] = corpus
+space['id2word'] = id2word
+space['update_every'] = 1
+space['alpha'] = 'auto'
+space['per_word_topics'] = True
+space['random_state'] = 100
+
+space['num_topics'] = hp.randint('num_topics', 50)
+space['chunksize'] = hp.randint('chunksize', 200)
+space['passes'] = hp.randint('passes', 50)
+
+trials = Trials()
+
+def objective(params):
+    model = gensim.models.ldamodel.LdaModel(**params)
+    coherence_model = CoherenceModel(model=model, texts=data_lemmatized, dictionary=id2word, coherence='c_v')
+    coherence = coherence_model.get_coherence()
+    return 1-coherence # I want to maximize coherence, so I need minize this expression
+
+
+best = fmin(objective,
+            space,
+            algo=tpe.suggest,
+            max_evals=10,
+            trials=trials)
+
+#lda_model = gensim.models.ldamodel.LdaModel(corpus=corpus,
+#                                           id2word=id2word,
+#                                           num_topics=20,
+#                                           random_state=100,
+#                                           update_every=1,
+#                                           chunksize=100,
+#                                           passes=10,
+#                                           alpha='auto',
+#                                           per_word_topics=True)
+
+from hyperopt import space_eval
+
+best_params = space_eval(space, best)
+pprint(best_params)
+
+lda_model = gensim.models.ldamodel.LdaModel(**best_params)
 
 # Compute Perplexity
 print('\nPerplexity: ', lda_model.log_perplexity(corpus))  # a measure of how good the model is. lower the better.
@@ -105,5 +143,4 @@ print('\nPerplexity: ', lda_model.log_perplexity(corpus))  # a measure of how go
 coherence_model_lda = CoherenceModel(model=lda_model, texts=data_lemmatized, dictionary=id2word, coherence='c_v')
 coherence_lda = coherence_model_lda.get_coherence()
 print('\nCoherence Score: ', coherence_lda)
-
 
